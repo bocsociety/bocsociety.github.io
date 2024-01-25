@@ -3,8 +3,16 @@
     text-align: center;
 }
 body {
-    background-color: burlywood;
+    background-color:rgb(155, 241, 155);
 }
 h1 {
     text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.inline {
+    float: left;
+    width: 18%;
+    padding: 1%;
 }
