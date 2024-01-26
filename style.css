@@ -1,6 +1,7 @@
 .centre {
     margin: auto;
     text-align: center;
+    display: block;
 }
 body {
     background-color:rgb(155, 241, 155);
@@ -9,6 +10,9 @@ h1 {
     text-align: center;
 }
 h2 {
+    text-align: center;
+}
+p {
     text-align: center;
 }
 .inline {
