@@ -1,23 +1,45 @@
-.centre {
-    margin: auto;
-    text-align: center;
-    display: block;
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: "Trebuchet MS";
 }
 body {
-    background-color:rgb(155, 241, 155);
-}
-h1 {
-    text-align: center;
-    font-size: 3em;
-}
-h2 {
+    background-color: rgb(88, 218, 158);
     text-align: center;
 }
-p {
-    text-align: center;
+a {
+    text-decoration: none;
+    color: black;
 }
-.inline {
-    float: left;
-    width: 18%;
-    padding: 1%;
+.header {
+    background-color: rgb(186, 68, 70);
+    height: 10%;
+    font-size: 2.5em;
+    padding: 2%;
+    color: rgb(46, 35, 35);
+    
+}
+.homepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+.homepageItem {
+    background-color: rgb(131, 99, 200);
+    border-color: rgb(234, 177, 64);
+    border-style: solid;
+    padding: 4%;
+}
+.news {
+    padding: 5%;
+}
+.game {
+    background-color: rgb(21, 143, 86);;
+    margin: auto;
+    padding: 3%;
+    width: max-content;
+    line-height: 150%;
+}
+.gameOptions {
+    text-align: left;
 }
