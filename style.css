@@ -63,7 +63,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 1%;
-    row-gap: 15%;
+    row-gap: 15%; 
 }
 .profile {
     border-style:double;
